@@ -1,0 +1,127 @@
+root { 
+    display: block;
+}
+body{
+                font-family: Arial;
+                margin: 2px;
+            }
+            .header{
+                width: 100%;
+                
+                margin-top: 0px;
+                margin-bottom: 5px;
+                background-color: #dfdfdf;     
+                text-align: center;
+                color: gray;
+                font-size: 16px;
+            }
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+        font-family: arial;
+}
+
+#porta2_estado , #porta2_titulo , #porta3_estado , #porta3_titulo , #porta4_estado , #porta4_titulo , #porta5_estado , #porta5_titulo , #porta6_estado , #porta6_titulo , #porta7_estado , #porta7_titulo , #porta8_estado , #porta8_titulo, #porta9_estado , #porta9_titulo {
+    visibility: hidden;
+}
+
+#float-image {
+position: fixed;
+top: 24;
+right: 0;
+width: 166px;
+height: 85px;
+background: url(logo.png) no-repeat;
+display: block;
+}
+
+div.rele_ligado {
+    position: absolute; 
+    left:-5px; 
+    top:-10px; 
+    width: 57px; 
+    height: 85px; 
+    border-radius:5px;
+	background: url(lampada_ligada.png) no-repeat;
+}
+
+div.rele_desligado {
+    position: absolute; 
+    left:-5px; 
+    top:-10px; 
+    width: 57px; 
+    height: 85px; 
+    border-radius:5px;
+	background: url(lampada_desligada.png) no-repeat;
+}
+
+div.porta_ligada {
+    position: absolute; 
+    left:-5px; 
+    top:-10px; 
+    width: 57px; 
+    height: 85px; 
+    border-radius:5px;
+	background: url(lampada_ligada.png) no-repeat;
+}
+
+div.porta_desligada {
+    background-color: ;
+    position: absolute; 
+    left:-5px; 
+    top:-10px; 
+    width: 57px; 
+    height: 85px; 
+    border-radius:5px;
+	background: url(lampada_desligada.png) no-repeat;
+}
+
+#botao{
+    position: absolute;
+    right: 40px;
+    top: 330px;
+}
+
+.botao {
+    position: absolute; 
+    left:55px; 
+    top:15px;
+    
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:5px 4px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+        width: 200px;
+        text-align: center;
+}.botao:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.botao:active {
+	
+}
