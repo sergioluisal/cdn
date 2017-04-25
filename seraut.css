@@ -51,7 +51,7 @@ div.rele_ligado {
     width: 57px; 
     height: 85px; 
     border-radius:5px;
-	background: url(lampada_desligada.png) no-repeat;
+	background: url(lampada_ligada.png) no-repeat;
 }
 
 div.rele_desligado {
@@ -61,7 +61,7 @@ div.rele_desligado {
     width: 57px; 
     height: 85px; 
     border-radius:5px;
-	background: url(lampada_ligada.png) no-repeat;
+	background: url(lampada_desligada.png) no-repeat;
 }
 
 div.porta_ligada {
@@ -71,7 +71,7 @@ div.porta_ligada {
     width: 57px; 
     height: 85px; 
     border-radius:5px;
-	background: url(lampada_desligada.png) no-repeat;
+	background: url(lampada_ligada.png) no-repeat;
 }
 
 div.porta_desligada {
@@ -82,7 +82,7 @@ div.porta_desligada {
     width: 57px; 
     height: 85px; 
     border-radius:5px;
-	background: url(lampada_ligada.png) no-repeat;
+	background: url(lampada_desligada.png) no-repeat;
 }
 
 #botao{
