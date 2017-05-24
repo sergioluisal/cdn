@@ -24,9 +24,9 @@ function VerificaEstado(){
     var porta9_titulo = document.getElementById("porta9_titulo").innerHTML;
 
     if(porta2_estado === "0"){
-        document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?SALA' class='botao'>"+porta2_titulo+"</a>";
+        document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
     } else {
-        document.getElementById("porta2_botao").innerHTML="<div class='porta_ligada'></div><a href='/?SALA' class='botao'>"+porta2_titulo+"</a>";
+        document.getElementById("porta2_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d2' class='botao'>"+porta2_titulo+"</a>";
     }
 
     if(porta3_estado === "0"){
