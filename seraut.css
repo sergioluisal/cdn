@@ -94,7 +94,7 @@ div.porta_desligada {
 .botao {
     position: absolute; 
     left:55px; 
-    top:15px;
+    top:45px;
     
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
