@@ -47,7 +47,7 @@ display: block;
 div.rele_ligado {
     position: absolute; 
     left:-5px; 
-    top:-10px; 
+    top:10px; 
     width: 57px; 
     height: 85px; 
     border-radius:5px;
@@ -57,7 +57,7 @@ div.rele_ligado {
 div.rele_desligado {
     position: absolute; 
     left:-5px; 
-    top:-10px; 
+    top:10px; 
     width: 57px; 
     height: 85px; 
     border-radius:5px;
@@ -67,7 +67,7 @@ div.rele_desligado {
 div.porta_ligada {
     position: absolute; 
     left:-5px; 
-    top:-10px; 
+    top:10px; 
     width: 57px; 
     height: 85px; 
     border-radius:5px;
@@ -78,7 +78,7 @@ div.porta_desligada {
     background-color: ;
     position: absolute; 
     left:-5px; 
-    top:-10px; 
+    top:10px; 
     width: 57px; 
     height: 85px; 
     border-radius:5px;
