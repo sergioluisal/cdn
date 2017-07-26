@@ -105,7 +105,7 @@ div.porta_desligada {
 	background-color:#ededed;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
-	border-radius:6px;
+	border-radius:18px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	color:#777777;
