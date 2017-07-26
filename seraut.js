@@ -84,9 +84,9 @@ function VerificaEstado(){
     }
     
     if(porta11_estado === "0"){
-        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
+        document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
     } else {
-        document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
+        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
     }
 
 document.getElementsByTagName("body")[0].innerHTML += "<a href='http://www.seraut.com.br' id='float-image'></a>";
