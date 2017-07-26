@@ -78,13 +78,13 @@ function VerificaEstado(){
     }
     
     if(porta10_estado === "0"){
-        document.getElementById("porta10_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d10' class='botao'>"+porta10_titulo+"</a>";
+        document.getElementById("porta10_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l10' class='botao'>"+porta10_titulo+"</a>";
     } else {
         document.getElementById("porta10_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d10' class='botao'>"+porta10_titulo+"</a>";
     }
     
     if(porta11_estado === "0"){
-        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
+        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
     } else {
         document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
     }
