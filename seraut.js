@@ -26,8 +26,8 @@ function VerificaEstado(){
     var porta10_estado = document.getElementById("porta10_estado").innerHTML;
     var porta10_titulo = document.getElementById("porta10_titulo").innerHTML;
     
-    var porta11_estado = document.getElementById("porta11_estado").innerHTML;
-    var porta11_titulo = document.getElementById("porta11_titulo").innerHTML;
+    var porta1_estado = document.getElementById("porta11_estado").innerHTML;
+    var porta1_titulo = document.getElementById("porta11_titulo").innerHTML;
 
     if(porta2_estado === "0"){
         document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
@@ -83,10 +83,10 @@ function VerificaEstado(){
         document.getElementById("porta10_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d10' class='botao'>"+porta10_titulo+"</a>";
     }
     
-    if(porta11_estado === "0"){
-        document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
+    if(porta1_estado === "0"){
+        document.getElementById("porta1_botao").innerHTML="<div class='porta_ligada'></div><a href='/?l1' class='botao'>"+porta1_titulo+"</a>";
     } else {
-        document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
+        document.getElementById("porta1_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d1' class='botao'>"+porta1_titulo+"</a>";
     }
 
 document.getElementsByTagName("body")[0].innerHTML += "<a href='http://www.seraut.com.br' id='float-image'></a>";
