@@ -26,8 +26,8 @@ function VerificaEstado(){
     var porta10_estado = document.getElementById("porta10_estado").innerHTML;
     var porta10_titulo = document.getElementById("porta10_titulo").innerHTML;
     
-    var porta1_estado = document.getElementById("porta11_estado").innerHTML;
-    var porta1_titulo = document.getElementById("porta11_titulo").innerHTML;
+    var porta1_estado = document.getElementById("porta1_estado").innerHTML;
+    var porta1_titulo = document.getElementById("porta1_titulo").innerHTML;
 
     if(porta2_estado === "0"){
         document.getElementById("porta2_botao").innerHTML="<div class='porta_desligada'></div><a href='/?l2' class='botao'>"+porta2_titulo+"</a>";
