@@ -83,7 +83,7 @@ function VerificaEstado(){
         document.getElementById("porta10_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d10' class='botao'>"+porta10_titulo+"</a>";
     }
     
-    if(porta1_estado === "0"){
+    if(porta11_estado === "0"){
         document.getElementById("porta11_botao").innerHTML="<div class='porta_ligada'></div><a href='/?l11' class='botao'>"+porta11_titulo+"</a>";
     } else {
         document.getElementById("porta11_botao").innerHTML="<div class='porta_desligada'></div><a href='/?d11' class='botao'>"+porta11_titulo+"</a>";
