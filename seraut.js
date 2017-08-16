@@ -1,4 +1,5 @@
 
+
 function VerificaEstado(){
     var porta2_estado = document.getElementById("porta2_estado").innerHTML;
     var porta2_titulo = document.getElementById("porta2_titulo").innerHTML;
@@ -72,8 +73,7 @@ function VerificaEstado(){
         document.getElementById("porta9_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d9' class='botao'>"+porta9_titulo+"</a>";
     }
 
-
-document.getElementsByTagName("body")[0].innerHTML += "<a href='http://www.seraut.com.br' id='float-image'></a>";
+document.getElementsByTagName("body")[0].innerHTML += "<a href='www.seraut.com.br' id='float-image'></a>";
 
 }
  
