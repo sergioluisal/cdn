@@ -22,10 +22,10 @@ root {
 
 #float-image {
 position: fixed;
-top: 0;
+top: -18;
 right: 0;
-width: 202px;
-height: 60px;
+width: 198px;
+height: 168px;
 background: url(Logo.png) no-repeat;
 display: block;
 }
