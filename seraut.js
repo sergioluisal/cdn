@@ -73,7 +73,7 @@ function VerificaEstado(){
         document.getElementById("porta9_botao").innerHTML="<div class='porta_ligada'></div><a href='/?d9' class='botao'>"+porta9_titulo+"</a>";
     }
 
-document.getElementsByTagName("body")[0].innerHTML += "<a href='www.seraut.com.br' id='float-image'></a>";
+document.getElementsByTagName("body")[0].innerHTML += "<a href='www.slsoluti.com.br' id='float-image'></a>";
 
 }
  
